@@ -13,6 +13,7 @@ cat /home/niudong/.ssh/id_rsa.pub
 ```
 
 ## http2ssh
+将git的上传方式从http转成ssh
 ```bash
 # config info 
 git config --global user.name "Niudong-ubuntu"
@@ -22,6 +23,7 @@ url = http://xxx.com/Name/project.git -> url = git@xxx.com/Name/project.git
 ```
 
 ## submodule
+git子仓库操作
 ```bash
 git clone <仓库地址> --recursive  # 递归的方式克隆整个项目
 git submodule add <仓库地址> <本地路径>  # 添加子模块(git submodule)
