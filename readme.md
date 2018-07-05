@@ -1,7 +1,7 @@
-# toolkits
+# Toolkits
 常用命令,工具使用方式的集合
 
-## genSSHKEy
+## genSSHKey
 一键生成各个端的sshkey
 ```bash
 # window
@@ -10,6 +10,15 @@ cat C:\Users\dongn\.ssh\id_rsa.pub
 # ubuntu
 ssh-keygen -t rsa -C "1619249966@qq.com"
 cat /home/niudong/.ssh/id_rsa.pub
+```
+
+## http2ssh
+```bash
+# config info 
+git config --global user.name "Niudong-ubuntu"
+git config --global user.email "1619249966@qq.com"
+# change config(.git/config)
+url = http://xxx.com/Name/project.git -> url = git@xxx.com/Name/project.git
 ```
 
 ## submodule
