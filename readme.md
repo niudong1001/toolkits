@@ -4,11 +4,10 @@
 ## genSSHKey
 一键生成各个端的sshkey
 ```bash
-# window
 ssh-keygen -t rsa -C "1619249966@qq.com"
+# window
 cat C:\Users\dongn\.ssh\id_rsa.pub
 # ubuntu
-ssh-keygen -t rsa -C "1619249966@qq.com"
 cat /home/niudong/.ssh/id_rsa.pub
 ```
 
@@ -22,7 +21,7 @@ git config --global user.email "1619249966@qq.com"
 url = http://xxx.com/Name/project.git -> url = git@xxx.com/Name/project.git
 ```
 
-## submodule
+## git submodule
 git子仓库操作
 ```bash
 # load submodule
@@ -41,4 +40,12 @@ rm -rf .git/modules/the_submodule
 git remote add upstream <原版仓库地址>
 git pull upstream master
 git push origin master
+```
+
+## scp file transfer
+```bash
+# 将ip为43.224.34.73主机的`/home/A`目录复制到`/B`目录下
+scp -r root@43.224.34.73:/home/A /B
+# 反向
+scp -r /B root@43.224.34.73:/home/A
 ```
