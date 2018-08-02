@@ -49,3 +49,38 @@ scp -r root@43.224.34.73:/home/A /B
 # 反向
 scp -r /B root@43.224.34.73:/home/A
 ```
+
+## 加速pip
+- linux && mac: 修改`~/.pip/pip.conf`(没有就创建一个)  
+- window: 修改`C:\Users\xx\pip\pip.ini`(没有就创建一个)  
+- 文件中增加以下内容  
+```bash
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+```
+> 源也可以选择：http://pypi.douban.com/simple/
+
+## 安装virtualenv
+- 安装
+```bash
+sudo pip install virtualenv
+sudo easy_install virtualenvwrapper
+```
+- 配置virtualenvwrapper
+```bash
+export WORKON_HOME='~/workon_home'  # 创建虚拟环境是所在的目录
+source /usr/local/bin/virtualenvwrapper.sh
+# 可以增加别名
+alias mkpyenv='mkvirtualenv'
+alias rmpyenv='rmvirtualenv'
+alias lspyenv='lsvirtualenv'
+alias cppyenv='cpvirtualenv'
+```
+
+## 使用virtualenv
+```bash
+mkpyenv py2 --python=python2  # 新建环境,会自动进入环境
+workon py2  # 进入环境
+deactivate  # 离开环境
+rmpyenv py2  # 删除环境
+```
