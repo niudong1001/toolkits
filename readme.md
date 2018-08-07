@@ -135,10 +135,10 @@ set WORKON_HOME=C:\Users\dongn\workon_home
 ## 使用virtualenv
 
 ```bash
-mkpyenv py2 --python=python2  # 新建环境,会自动进入环境
+mkvirtualenv py2 -p python2  # 新建环境,会自动进入环境
 workon py2  # 进入环境
 deactivate  # 离开环境
-rmpyenv py2  # 删除环境
+rmvirtualenv py2  # 删除环境
 ```
 
 ## 为windows增加alias
