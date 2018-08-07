@@ -51,8 +51,8 @@ scp -r /B root@43.224.34.73:/home/A
 ```
 
 ## 加速pip
-- linux && mac: 修改`~/.pip/pip.conf`(没有就创建一个)  
-- window: 修改`C:\Users\xx\pip\pip.ini`(没有就创建一个)  
+- `linux && mac`: 修改`~/.pip/pip.conf`(没有就创建一个)  
+- `window`: 修改`C:\Users\xx\pip\pip.ini`(没有就创建一个)  
 - 文件中增加以下内容  
 ```bash
 [global]
@@ -61,6 +61,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 > 源也可以选择：http://pypi.douban.com/simple/
 
 ## 安装virtualenv
+### Mac && Linux
 - 安装
 ```bash
 sudo pip install virtualenv
@@ -76,6 +77,16 @@ alias rmpyenv='rmvirtualenv'
 alias lspyenv='lsvirtualenv'
 alias cppyenv='cpvirtualenv'
 ```
+### Win
+- 安装
+```bash
+pip install virtualenv
+pip install virtualenvwrapper-win
+```
+- 配置virtualenvwrapper
+```bash
+set WORKON_HOME=C:\Users\dongn\workon_home
+```
 
 ## 使用virtualenv
 ```bash
@@ -84,3 +95,19 @@ workon py2  # 进入环境
 deactivate  # 离开环境
 rmpyenv py2  # 删除环境
 ```
+
+## 为windows增加alias
+- 编写`bat`  
+
+如将`mkvirtualenv`命令用别名`mkpyenv`表示，`bat`文件路径存储为如`D:\Libraries\alias\alias.bat`
+```bash
+@doskey mkpyenv=mkvirtualenv
+```
+- 编写`reg`
+```bash
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+"AutoRun"="D:\\Libraries\\alias\\alias.bat"
+```
+- 运行`reg`文件
