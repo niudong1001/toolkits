@@ -1,17 +1,18 @@
 # Toolkits
 常用命令,工具使用方式的集合
 
-## genSSHKey
+## GenSSHKey
 一键生成各个端的sshkey
 ```bash
+# gen (win&&linux&&mac)
 ssh-keygen -t rsa -C "1619249966@qq.com"
 # window
 cat C:\Users\dongn\.ssh\id_rsa.pub
-# ubuntu
+# linux&&mac
 cat /home/niudong/.ssh/id_rsa.pub
 ```
 
-## git http2ssh
+## Git HTTP2SSH
 将git的上传方式从http转成ssh
 ```bash
 # config info 
@@ -21,7 +22,7 @@ git config --global user.email "1619249966@qq.com"
 url = http://xxx.com/Name/project.git -> url = git@xxx.com/Name/project.git
 ```
 
-## git submodule
+## Git Submodule
 git子仓库操作
 ```bash
 # load submodule
@@ -34,23 +35,25 @@ git rm the_submodule
 rm -rf .git/modules/the_submodule
 ```
 
-## keep fork up to date
+## Keep Fork Up To Date
+让fork up的仓库更新到源仓库的最新状态
 ```bash
-# in fork dir
+# must in fork dir(local)
 git remote add upstream <原版仓库地址>
 git pull upstream master
 git push origin master
 ```
 
-## scp file transfer
+## Scp File Transfer
+使用`scp`在两台主机间传输文件
 ```bash
-# 将ip为43.224.34.73主机的`/home/A`目录复制到`/B`目录下
+# 从远程主机到本地：将ip为43.224.34.73主机的`/home/A`目录复制到`/B`目录下
 scp -r root@43.224.34.73:/home/A /B
-# 反向
+# 从本地到远程主机：-
 scp -r /B root@43.224.34.73:/home/A
 ```
 
-## 加速pip
+## Speed PIP
 - `linux && mac`: 修改`~/.pip/pip.conf`(没有就创建一个)  
 - `window`: 修改`C:\Users\xx\pip\pip.ini`(没有就创建一个)  
 - 文件中增加以下内容  
