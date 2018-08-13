@@ -135,20 +135,31 @@ set WORKON_HOME=C:\Users\dongn\workon_home
 ## 使用virtualenv
 
 ```bash
-mkvirtualenv py2 --python=2.7  # 新建环境,会自动进入环境
+mkvirtualenv py2  # 新建环境,会自动进入环境，需要注意的是：系统需要已经安装了对应的python版本
 workon py2  # 进入环境
 deactivate  # 离开环境
 rmvirtualenv py2  # 删除环境
+```
+
+对于使用非默认的python(window):
+
+- 安装其他python版本到如：`C:\Python36`
+
+- 设置并新建环境
+
+```bash
+set python36=C:\Python36\python.exe  # 设置环境变量
+mkvirtualenv -p %python36% py3  # 使用环境变量新建环境
 ```
 
 ## 为windows增加alias
 
 - 编写`bat`  
 
-如将`mkvirtualenv`命令用别名`mkpyenv`表示，`bat`文件路径存储为如`D:\Libraries\alias\alias.bat`
+如将`mkvirtualenv`命令用别名`mkpyenv`表示，`bat`文件路径存储为如`D:\Libraries\alias\alias.bat`。`$*`表示这个命令还可能有其他参数
 
 ```bash
-@doskey mkpyenv=mkvirtualenv
+@doskey mkpyenv=mkvirtualenv $*
 ```
 
 - 编写`reg`
