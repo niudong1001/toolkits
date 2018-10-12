@@ -38,3 +38,9 @@ git remote add upstream <原版仓库地址>
 git pull upstream master
 git push origin master
 ```
+
+## 查看gpu信息
+```bash
+nvidia-smi
+nvidia-smi -l  # 实时
+```
