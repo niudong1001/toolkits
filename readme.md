@@ -209,21 +209,25 @@ chmod 777 ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh
 source ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh
 ```
 
-### Profile && Bashrc && Zshrc
-
-1. Set profile
+### Common bashrc set
 
 ```bash
 # alias
 alias profileconfig="sudo gedit /etc/profile"
-alias bashconfig="code ~/.bashrc"  # code can be other editor
+alias bashconfig="code ~/.bashrc"  # 'code' can be set to other editor
 alias zshconfig="code ~/.zshrc"
 alias source_profile="source /etc/profile"
 alias source_bash="source ~/.bashrc"
 alias source_zsh="source ~/.zshrc"
 alias probe_gpu="watch -n 10 nvidia-smi"
 alias probe_cuda="cat /usr/local/cuda/version.txt"
-# source
-source ~/.bashrc
-source ~/.zshrc
+```
+
+### Where dpkg installed to
+
+```bash
+# If you don't know what is your package name, try to find it using this command
+dpkg -l
+# Find where the package installed to
+dpkg -L <deb_name>
 ```
