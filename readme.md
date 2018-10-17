@@ -209,12 +209,12 @@ chmod 777 ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh
 source ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh
 ```
 
-### Common bashrc set
+## Common bashrc set
 
 ```bash
 # alias
 alias profileconfig="sudo gedit /etc/profile"
-alias bashconfig="code ~/.bashrc"  # 'code' can be set to other editor
+alias bashconfig="code ~/.bashrc"  # 'code' can be set to another editor
 alias zshconfig="code ~/.zshrc"
 alias source_profile="source /etc/profile"
 alias source_bash="source ~/.bashrc"
@@ -223,7 +223,7 @@ alias probe_gpu="watch -n 10 nvidia-smi"
 alias probe_cuda="cat /usr/local/cuda/version.txt"
 ```
 
-### Where dpkg installed to
+## Where dpkg installed to
 
 ```bash
 # If you don't know what is your package name, try to find it using this command
