@@ -14,6 +14,7 @@ Some tookits or notes for solving the common facing problem in cs.
 2. [Some git submodule related operations（一些git子仓库相关的操作）?](https://github.com/niudong1001/toolkits/issues/4)
 3. [How to keep forked repository up to date（如何将fork的仓库更新到最新）?](https://github.com/niudong1001/toolkits/issues/5)
 4. [How to generate ssh key（如何生成ssh密钥）?](https://github.com/niudong1001/toolkits/issues/6)
+5. [How connect to SSH server without password and shorten the command?(把SSH信息写入config文件中方便使用)](https://github.com/niudong1001/toolkits/issues/9)
 
 ## PYTHON ABOUT
 
