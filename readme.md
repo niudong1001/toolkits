@@ -1,20 +1,28 @@
 # Toolkits
 
-Some tookits or notes for solving the common facing problem in cs.
+We often encounter problems that are often encountered when using computers to perform various tasks, such as how to use `GIT` to add a sub-repository to the original repository, or how to use `SCP` commands to download a specific file from a remote host. For these tasks, we may not be able to recall the specific operation steps or the solutions to the problems encountered. The repo is used to record the specific steps or frequently encountered problems in using the computer to complete various tasks. Let it to be our "**computer problem killer**".
 
-## LINUX ABOUT
+You can click [中文文档](./readme_zh.md) to read chinese doc.
 
-1. [Where dpkg installed to（dpkg安装到哪里了）?](https://github.com/niudong1001/toolkits/issues/1)
-2. [Some useful bashrc set（一些有用的bashrc的设置）?](https://github.com/niudong1001/toolkits/issues/2)
-3. [How to transfer file between two hosts by using the SCP command（如何使用SCP命令在两台主机间传输文件）?](https://github.com/niudong1001/toolkits/issues/7)
+## Table of content
 
-## GIT ABOUT
+### Linux about
 
-1. [How to change the upload method in git repository from http to ssh（如何把git仓库中的上传方式从http变成ssh）?](https://github.com/niudong1001/toolkits/issues/3)
-2. [Some git submodule related operations（一些git子仓库相关的操作）?](https://github.com/niudong1001/toolkits/issues/4)
-3. [How to keep forked repository up to date（如何将fork的仓库更新到最新）?](https://github.com/niudong1001/toolkits/issues/5)
-4. [How to generate ssh key（如何生成ssh密钥）?](https://github.com/niudong1001/toolkits/issues/6)
+1. [Where dpkg installed to?](https://github.com/niudong1001/toolkits/issues/1)
+2. [Some useful bashrc set?](https://github.com/niudong1001/toolkits/issues/2)
+3. [How to transfer file between two hosts by using the SCP command?](https://github.com/niudong1001/toolkits/issues/7)
 
-## PYTHON ABOUT
+### Git about
 
-1. [How to speed up the download speed of PIP in china（如何在国内加速PIP下载包的速度）?](https://github.com/niudong1001/toolkits/issues/8)
+1. [How to change the upload method in git repository from http to ssh?](https://github.com/niudong1001/toolkits/issues/3)
+2. [Some git submodule related operations?](https://github.com/niudong1001/toolkits/issues/4)
+3. [How to keep forked repository up to date?](https://github.com/niudong1001/toolkits/issues/5)
+4. [How to generate ssh key?](https://github.com/niudong1001/toolkits/issues/6)
+
+### Python about
+
+1. [How to speed up the download speed of PIP in china?](https://github.com/niudong1001/toolkits/issues/8)
+
+## Contribution
+
+To be added...
