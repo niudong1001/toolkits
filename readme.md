@@ -18,6 +18,7 @@ You can click [中文文档](./readme_zh.md) to read chinese doc.
 2. [Some git submodule related operations?](https://github.com/niudong1001/toolkits/issues/4)
 3. [How to keep forked repository up to date?](https://github.com/niudong1001/toolkits/issues/5)
 4. [How to generate ssh key?](https://github.com/niudong1001/toolkits/issues/6)
+5. [How connect to SSH server without password and shorten the command?](https://github.com/niudong1001/toolkits/issues/9)
 
 ### Python about
 
