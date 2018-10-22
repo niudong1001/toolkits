@@ -4,11 +4,14 @@ about: A solution for a specific problem.
 
 ---
 
-**Describe the question**
+**Describe the problem**
 A clear and concise description of what the problem is.
 
-**Describe the solution**
-Describe how to solve the problem mentioned above in detail(please declare the specific os environment if possible).
+**Demonstrate the solution**
+Describe how to solve the problem mentioned above in detail, if possible you can:
+- add key code
+- add some screenshots
+- declare the specific os environment
 
 **Additional context**
 Add any other context about the problem here.
