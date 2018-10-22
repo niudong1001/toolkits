@@ -19,7 +19,7 @@
 
 ### Git相关
 
-1. [如何把git仓库中的上传方式从HTTP变成SSH?](https://github.com/niudong1001/toolkits/issues/3)
+1. [如何把git仓库中的上传方式从HTTPS变成SSH?](https://github.com/niudong1001/toolkits/issues/3)
 2. [一些git子仓库相关的操作?](https://github.com/niudong1001/toolkits/issues/4)
 3. [如何将fork的仓库更新到最新?](https://github.com/niudong1001/toolkits/issues/5)
 4. [如何生成SSH密钥?](https://github.com/niudong1001/toolkits/issues/6)
