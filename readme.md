@@ -21,6 +21,7 @@ You can read the [中文文档](./readme_zh.md).
 3. [How to keep forked repository up to date?](https://github.com/niudong1001/toolkits/issues/5)
 4. [How to generate ssh key?](https://github.com/niudong1001/toolkits/issues/6)
 5. [How connect to SSH server without password and shorten the command?](https://github.com/niudong1001/toolkits/issues/9)
+6. [How to just download a specific directory in git repository?](https://github.com/niudong1001/toolkits/issues/11)
 
 ### Python About
 
@@ -32,4 +33,4 @@ You can read the [中文文档](./readme_zh.md).
 
 ## Contribution
 
-Please create an issue in strict accordance with the **format we provide**. If you have successfully solved the problem with this solution, please click **Heart** to indicate that you have tested the validity of the solution, which will help us better evaluate the answer.
+Please create an issue in strict accordance with the **format we provide**. If you have successfully solved the problem using this solution, please click **Heart** to indicate that you have tested the validity of the solution, which will help us better evaluate the answer.
