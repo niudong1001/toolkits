@@ -29,10 +29,14 @@
 
 1. [如何为一个vue-webpack项目添加多入口?](https://github.com/niudong1001/toolkits/issues/10)
 
+### Latex About
+
+1. [如何在Mac上安装与使用basicTex?](https://github.com/niudong1001/toolkits/issues/12)
+
 ## 参与贡献
 
 如果您希望贡献本仓库，请遵循以下步骤：
 
 - 根据我们提供的模板格式添加一个issue
 - 克隆这个仓库并将该issue条目添加进readme.md文件
-- 为成功验证的解决步骤点击星星(heart)
+- 为成功验证的解决步骤点击**星星(heart)**

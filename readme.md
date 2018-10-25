@@ -1,6 +1,6 @@
 # Toolkits
 
-We often encounter problems that are often happened when using the computer to perform various tasks, such as *How to use `GIT` to add a sub-repository to the original repository?* *How to use `SCP` commands to download a specific file from a remote host?* For these questions, we may not be able to recall the specific operation steps immediately. The repo is used to record those steps for quickly solving the problems encountered when using the computer to complete various tasks. It is our **CS-Experience-Memory** or says another cool name **CS-Problem-Killer**.
+We often encounter problems that are often happened when using the computer to perform various tasks, such as *How to add a sub-repository to the git repository?* or *How to use `SCP` commands to download a specific file from a remote host?* For these problems, we may not be able to recall the specific operation steps immediately. The repo is used to record those steps for quickly solving the problems encountered when using the computer to complete various tasks. It is our **CS-Experience-Memory** or says another cool name **CS-Problem-Killer**.
 
 You can click [中文文档](./readme_zh.md) to read the chinese document.
 
@@ -29,10 +29,14 @@ You can click [中文文档](./readme_zh.md) to read the chinese document.
 
 1. [How to add multiple entries to the vue-webpack project?](https://github.com/niudong1001/toolkits/issues/10)
 
+### Latex About
+
+1. [How to install and use BasicTex on Mac?](https://github.com/niudong1001/toolkits/issues/12)
+
 ## Contribution
 
 If you hope to contribute to this repo, please follow the steps below:
 
-- Add an issue according to the template we provide
-- Clone the repo and Add the issue-item you added to the readme.md
-- Click the **Heart** to verify that you passed the solution
+- Add an issue according to the template we provide.
+- Clone the repo and add the issue-link you added to the readme.md.
+- Click the **Heart** to verify that you passed the solution.
