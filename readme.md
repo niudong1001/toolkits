@@ -1,10 +1,8 @@
 # Toolkits
 
-We often encounter problems that are often happened when using the computer to perform various tasks, such as: How to use `GIT` to add a sub-repository to the original repository? How to use `SCP` commands to download a specific file from a remote host?
+We often encounter problems that are often happened when using the computer to perform various tasks, such as *How to use `GIT` to add a sub-repository to the original repository?* *How to use `SCP` commands to download a specific file from a remote host?* For these questions, we may not be able to recall the specific operation steps immediately. The repo is used to record those steps for quickly solving the problems encountered when using the computer to complete various tasks. It is our **CS-Experience-Memory** or says another cool name **CS-Problem-Killer**.
 
-For these tasks, we may not be able to recall the specific operation steps or the solutions to the problems encountered. The repo is used to record the specific steps or frequently encountered problems in using the computer to complete various tasks. It is our `cs-experience-memory` or say another cool name **`cs-problem-killer`**.
-
-You can read the [中文文档](./readme_zh.md).
+You can click [中文文档](./readme_zh.md) to read the chinese document.
 
 ## Table of content
 
@@ -16,12 +14,12 @@ You can read the [中文文档](./readme_zh.md).
 
 ### Git About
 
-1. [How to change the upload method in git repository from HTTPS to SSH?](https://github.com/niudong1001/toolkits/issues/3)
-2. [Some git submodule related operations?](https://github.com/niudong1001/toolkits/issues/4)
+1. [How to generate SSH key?](https://github.com/niudong1001/toolkits/issues/6)
+2. [Some GIT submodule related operations?](https://github.com/niudong1001/toolkits/issues/4)
 3. [How to keep forked repository up to date?](https://github.com/niudong1001/toolkits/issues/5)
-4. [How to generate ssh key?](https://github.com/niudong1001/toolkits/issues/6)
+4. [How to change the upload method in GIT repository from HTTPS to SSH?](https://github.com/niudong1001/toolkits/issues/3)
 5. [How connect to SSH server without password and shorten the command?](https://github.com/niudong1001/toolkits/issues/9)
-6. [How to just download a specific directory in git repository?](https://github.com/niudong1001/toolkits/issues/11)
+6. [How to just download a specific directory in GIT repository?](https://github.com/niudong1001/toolkits/issues/11)
 
 ### Python About
 
@@ -33,4 +31,8 @@ You can read the [中文文档](./readme_zh.md).
 
 ## Contribution
 
-Please create an issue in strict accordance with the **format we provide**. If you have successfully solved the problem using this solution, please click **Heart** to indicate that you have tested the validity of the solution, which will help us better evaluate the answer.
+If you hope to contribute to this repo, please follow the steps below:
+
+- Add an issue according to the template we provide
+- Clone the repo and Add the issue-item you added to the readme.md
+- Click the **Heart** to verify that you passed the solution
