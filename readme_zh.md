@@ -24,6 +24,7 @@
 ### Python相关
 
 1. [如何在国内加速PIP下载包的速度?](https://github.com/niudong1001/toolkits/issues/8)
+2. [如何通过SSH来访问远程服务器上的Jupyter Notebook](https://github.com/niudong1001/toolkits/issues/13)
 
 ### Vue相关
 
