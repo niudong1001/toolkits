@@ -24,6 +24,7 @@ You can click [中文文档](./readme_zh.md) to read the chinese document.
 ### Python About
 
 1. [How to speed up the download speed of PIP in china?](https://github.com/niudong1001/toolkits/issues/8)
+2. [How to use the Jupyter Notebook remotely with SSH tunnel?](https://github.com/niudong1001/toolkits/issues/13)
 
 ### Vue About
 
