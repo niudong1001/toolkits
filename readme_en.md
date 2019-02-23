@@ -2,7 +2,7 @@
 
 We often encounter problems that are often happened when using the computer to perform various tasks, such as *How to add a sub-repository to the git repository?* or *How to use `SCP` commands to download a specific file from a remote host?* For these problems, we may not be able to recall the specific operation steps immediately. The repo is used to record those steps for quickly solving the problems encountered when using the computer to complete various tasks. It is our **CS-Experience-Memory** or says another cool name **CS-Problem-Killer**.
 
-You can click [中文文档](./readme_zh.md) to read the chinese document.
+You can click [中文文档](./readme.md) to read the chinese document.
 
 ## Table of content
 
